@@ -1,3 +1,5 @@
+import { Construction } from "../components/construction/Construction";
+
 export function meta() {
   return [
     { title: "Education - Eric Sterwald" },
@@ -5,3 +7,6 @@ export function meta() {
   ];
 }
 
+export default function Education() {
+  return <Construction />;
+}
